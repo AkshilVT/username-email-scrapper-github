@@ -1,7 +1,9 @@
+# Introduction
+
 I have taken the help of following modules to scrape the data from github
 https://pypi.org/project/github-email-scraper/
 
-Folder structure -
+## Folder structure -
 
 ```bash
 ├── data
@@ -15,6 +17,8 @@ Folder structure -
 ├── scrapper.js
 └── test.py
 ```
+
+## Code (Execute on Terminal)
 
 You can run the following command to get the email id of the single user
 
@@ -43,3 +47,7 @@ py test.py -U ./data/keepsake.txt --all --auth-user YOUR_GITHUB_USERNAME --token
 ```
 
 I have also tested getting emails using github public api. The code for that is in scrapper.js
+
+## How to get Personal Access Token?
+
+go to github -> settings -> developer settings -> personal access token -> generate new token -> select all the scopes (here you need only user and email but having all scopes is not a necessity) -> generate token -> copy the token and use it in the above command
