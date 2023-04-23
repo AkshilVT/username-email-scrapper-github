@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@octokit/core": "^4.2.0",
+		"xlsx": "^0.18.5"
+	}
+}
